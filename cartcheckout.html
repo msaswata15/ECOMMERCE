@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cartcheckout.css">
+</head>
+<body>
+    <header>
+        <div class="top-banner">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#">ShopNow</a>
+        </div>
+        <div class="navbar">
+            <div class="logo">Exclusive</div>
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#">Sign Up</a>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="What are you looking for?">
+                <button>🔍</button>
+            </div>
+            <div class="icons">
+                <button>❤️</button>
+                <button>🛒</button>
+                <button>👤</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="breadcrumb">
+            <p>Home / Cart</p>
+        </section>
+        
+        <section class="cart">
+            <div class="cart-items">
+                <div class="cart-header">
+                    <p>Product</p>
+                    <p>Price</p>
+                    <p>Quantity</p>
+                    <p>Subtotal</p>
+                </div>
+                <div class="cart-item" data-price="650">
+                    <img src="lcd-monitor.jpg" alt="LCD Monitor">
+                    <div class="item-details">
+                        <p>LCD Monitor</p>
+                        <p class="price">$650</p>
+                        <div class="quantity">
+                            <select class="quantity-select">
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                            </select>
+                        </div>
+                        <p class="subtotal">$650</p>
+                        <button class="remove-item">❌</button>
+                    </div>
+                </div>
+                <div class="cart-item" data-price="550">
+                    <img src="gamepad.jpg" alt="Gamepad">
+                    <div class="item-details">
+                        <p>H1 Gamepad</p>
+                        <p class="price">$550</p>
+                        <div class="quantity">
+                            <select class="quantity-select">
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                            </select>
+                        </div>
+                        <p class="subtotal">$1100</p>
+                        <button class="remove-item">❌</button>
+                    </div>
+                </div>
+                <button class="return" onclick="window.location.href='Home.html'">Return To Shop</button>
+                <div class="coupon">
+                    <input type="text" placeholder="Coupon Code">
+                    <button>Apply Coupon</button>
+                </div>
+                <button class="update-cart">Update Cart</button>
+            </div>
+            <div class="cart-summary">
+                <h2>Cart Total</h2>
+                <p class="total-price">Subtotal: $1750</p>
+                <button class="checkout" onclick="window.location.href='bill.html'">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="cartcheckout.js"></script>
+</html>

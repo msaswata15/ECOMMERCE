@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Product Page</title>
+    <link rel="stylesheet" href="productdetail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-bar">
+            <p>Summer Sale for All Swim Suits - Free Express Delivery, OFF 50%! <a href="#">Shop Now</a></p>
+            <select class="language-select">
+                <option>English</option>
+                <option>Español</option>
+            </select>
+        </div>
+        <div class="main-header">
+            <h1>Exclusive</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#">Sign Up</a>
+            </nav>
+            <div class="search-bar">
+                <input type="search" placeholder="Search...">
+                <span class="icon">🔍</span>
+            </div>
+            <div class="icons">
+                <span>🛒</span>
+                <span>❤️</span>
+                <span>👤</span>
+            </div>
+        </div>
+    </header>
+    
+    <main class="product-page">
+        <div class="breadcrumbs">
+            <a href="#">Account</a> / <a href="#">Gaming</a> / Havic HV G-92 Gamepad
+        </div>
+        
+        <div class="product-details">
+            <div class="product-images">
+                <img src="product1.jpg" alt="Gamepad" class="main-image" id="mainProductImage">
+                <div class="thumbnails">
+                    <img src="product1.jpg" alt="Gamepad" class="thumbnail">
+                    <img src="product2.jpg" alt="Gamepad" class="thumbnail">
+                    <img src="product3.jpg" alt="Gamepad" class="thumbnail">
+                    <img src="product4.jpg" alt="Gamepad" class="thumbnail">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h2>Havic HV G-92 Gamepad</h2>
+                <p class="rating">⭐⭐⭐⭐⭐ <span>(150 Reviews)</span> | <span class="in-stock">In Stock</span></p>
+                <p class="price">$192.00</p>
+                <p class="description">High-quality vinyl skin for PS5 controller, featuring easy bubble-free installation and pressure sensitivity.</p>
+                
+                <div class="options">
+                    <div class="colors">
+                        <h4>Colours:</h4>
+                        <span class="color red"></span>
+                        <span class="color gray"></span>
+                    </div>
+                    
+                    <div class="sizes">
+                        <h4>Size:</h4>
+                        <button class="size">XS</button>
+                        <button class="size">S</button>
+                        <button class="size">M</button>
+                        <button class="size active">L</button>
+                        <button class="size">XL</button>
+                    </div>
+                </div>
+                
+                <div class="purchase">
+                    <div class="quantity">
+                        <button onclick="decrement()">-</button>
+                        <input type="text" id="quantity" value="1">
+                        <button onclick="increment()">+</button>
+                    </div>
+                    <button class="buy-now">Buy Now</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+                
+                <div class="delivery-info">
+                    <p>🚚 Free Delivery</p>
+                    <p>🔄 30 Days Return Policy</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="footer-section">
+            <h3>Exclusive</h3>
+            <p>Subscribe</p>
+            <p>Get 10% off your first order</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">➔</button>
+            </form>
+        </div>
+        <div class="footer-section">
+            <h3>Support</h3>
+            <p>IEM Gurukul Building,Salt Lake Sector V,Kolkata-700102</p>
+            <p>exclusive@gmail.com</p>
+            <p>+910000000000</p>
+        </div>
+        <div class="footer-section">
+            <h3>Account</h3>
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Login / Register</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Link</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Download App</h3>
+            <p>Save $3 with App New User Only</p>
+            <div class="app-links">
+                <img src="google-play.png" alt="Google Play">
+                <img src="app-store.png" alt="App Store">
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="productdetail.js"></script>
+</body>
+</html>
