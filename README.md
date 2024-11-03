@@ -15,15 +15,6 @@ Our platform offers a complete solution for **product management, sales, and use
 
 ---
 
-## 🎥 Quick Preview
-
-| Feature          | Demo GIF                                                                                  |
-|------------------|-------------------------------------------------------------------------------------------|
-| **Admin Login**  | ![Admin Login](https://your-gif-link.com/admin-login.gif)                                 |
-| **Product Search** | ![Product Search](https://your-gif-link.com/product-search.gif)                         |
-| **Order Tracking** | ![Order Tracking](https://your-gif-link.com/order-tracking.gif)                         |
-
----
 
 ## 🌟 Features
 
