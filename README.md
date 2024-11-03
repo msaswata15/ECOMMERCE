@@ -55,7 +55,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙋 Support
 
-For any queries or issues, feel free to create a new issue in the Issues tab or contact us at support@projectname.com.
+For any queries or issues, feel free to create a new issue in the Issues tab or contact us.
 cd projectname
 
 # Install dependencies
