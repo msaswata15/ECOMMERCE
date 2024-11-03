@@ -48,6 +48,14 @@ To get started with the project, clone the repository and install dependencies.
 git clone https://github.com/yourusername/projectname.git
 
 # Navigate to project directory
+```
+## 📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙋 Support
+
+For any queries or issues, feel free to create a new issue in the Issues tab or contact us at support@projectname.com.
 cd projectname
 
 # Install dependencies
