@@ -1,62 +1,74 @@
-# 📦 Project Name: E-Commerce Platform
+# 📦 Project Name: E-Commerce Platform (Version 1)
 
-![Project Logo](https://your-image-link.com/logo.png)
-
-Welcome to our **E-Commerce Platform**, a powerful web application for **shopping, inventory management, and customer interaction**. This project covers two major roles: **Administrator** and **Customer**, each with unique features to manage and enhance the shopping experience.
+Welcome to our **E-Commerce Platform (v1)**, a modern web application for shopping, inventory management, and customer interaction. This version provides a clean, responsive user interface and covers essential e-commerce features for both customers and administrators.
 
 ---
+![image](https://github.com/user-attachments/assets/7784fb63-fa45-4661-a17c-9186a6234826)
+
 
 ## 🎯 Project Overview
 
-Our platform offers a complete solution for **product management, sales, and user interactions**:
-
-1. **Administrator Controls**: Product management, inventory control, customer data management, and analytics reporting.
-2. **Customer Experience**: Product browsing, seamless checkout, and personalized account features.
+This platform offers a complete solution for:
+- **Product browsing and search**
+- **Shopping cart and checkout**
+- **Order summary and billing**
+- **Category navigation**
+- **Flash sales and best sellers**
+- **Newsletter subscription and support**
 
 ---
-
 
 ## 🌟 Features
 
-### 🛠️ Administrator Level Controls
+### Customer Experience
+- Browse products by category
+- Add products to cart and proceed to checkout
+- View flash sales and best-selling products
+- Responsive design for desktop and mobile
+- Newsletter subscription and contact support
 
-- **Admin Registration and Login**
-- **Inventory Management**
-- **Sales Reports and Analytics**
-- **Product and Promotion Management**
-
-### 🛒 Customer Purchase Products
-
-- **Product Browsing and Search**
-- **Personalized Cart and Wishlist**
-- **Delivery Options and Order Tracking**
-
-### 🌟 Rate/Review Products
-
-- **Product Reviews and Ratings**
-- **Feedback Notifications**
-- **Customer Satisfaction Surveys**
+### Administrator (Planned for future versions)
+- Product and inventory management
+- Sales analytics and reporting
 
 ---
 
-## 💻 Installation
+## 🗂️ Project Structure
 
-To get started with the project, clone the repository and install dependencies.
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/projectname.git
-
-# Navigate to project directory
 ```
+ECOMMERCE/
+├── Home.html, Home.css, Homescript.js         # Homepage and main UI
+├── cartcheckout.html, cartcheckout.css, cartcheckout.js   # Cart and checkout
+├── bill.html, bill.css                        # Billing and order summary
+├── productdetail.html, productdetail.css, productdetail.js # Product details
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/projectname.git
+   cd projectname/ECOMMERCE
+   ```
+
+2. **Open `Home.html` in your browser** to start exploring the platform.
+
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+---
+
 ## 🙋 Support
 
-For any queries or issues, feel free to create a new issue in the Issues tab or contact us.
-cd projectname
+For any queries or issues, create a new issue in the Issues tab or contact us.
 
-# Install dependencies
-npm install
+---
+
+**Version 1 – June
